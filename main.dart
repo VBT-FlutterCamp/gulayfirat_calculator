@@ -26,7 +26,7 @@ void main() {
   } else if (option == "*") {
     result = functions.multiply(first, second) ?? 0;
   } else {
-    print("Error(Please enter: numbers or option!)");
+    print("Error");
   }
   print("result: $result");
 }
